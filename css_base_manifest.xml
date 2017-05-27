@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<css_base_manifest>
+  <file href="CSS/base.css"></file>
+  <file href="CSS/lesson_quiz_base.css"></file>
+  <file href="CSS/lesson_quiz_master.css"></file>
+  <file href="CSS/lesson_quiz_slickQuiz.css"></file>
+</css_base_manifest>

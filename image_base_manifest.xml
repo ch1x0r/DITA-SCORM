@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<image_base_manifest>
+  <file href="IMAGES/close-btn.png"></file>  
+  <file href="IMAGES/next-btn.png"></file>  
+  <file href="IMAGES/prev-btn.png"></file>
+  <file href="IMAGES/launchmodule-bg.png"></file>
+  <file href="IMAGES/check_answer.png"></file> 
+  <file href="IMAGES/review_header_bg.png"></file> 
+  <file href="IMAGES/task_process.png"></file> 
+  <file href="IMAGES/roleplay_process.png"></file>
+  <file href="IMAGES/important.png"></file>
+  <file href="IMAGES/small-quotation-marks-start.png"></file>
+  <file href="IMAGES/small-quotation-marks-end.png"></file>
+  <file href="IMAGES/correct_answer.png"></file>
+  <file href="IMAGES/href.png"></file>
+  <file href="IMAGES/resume.png"></file>
+  
+</image_base_manifest>

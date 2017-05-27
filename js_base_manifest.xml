@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<js_base_manifest>
+  <file href="JSCRIPT/jquery.js"></file>
+  <file href="JSCRIPT/modernizr.custom.23933.js"></file>
+  <file href="JSCRIPT/pagination_pages.js"></file>
+  <file href="JSCRIPT/page_controls.js"></file>
+  <file href="JSCRIPT/lesson_quiz_slickQuiz.js"></file>  
+  <file href="JSCRIPT/scorm-openclose.js"></file>
+  <file href="JSCRIPT/scormfunctions.js"></file>
+</js_base_manifest>

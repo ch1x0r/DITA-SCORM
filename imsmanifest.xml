@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <manifest identifier="MONKEYMANIFEST" 
+    xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" 
+    xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+    <metadata>
+   <schema>ADL SCORM</schema>
+   <schemaversion>1.2</schemaversion>
+</metadata>
+<organizations default="TOC">
+   <organization identifier="TOC" structure="hierarchical">
+      <title>Course: Catering Store Operations A Draft</title>
+      <item identifier="ITEM1" identifierref="MOD1" isvisible="true">
+         <title>Catering Store Operations A Draft</title>
+      </item>
+   </organization>
+</organizations>
+<resources>
+   <resource xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="MOD1" type="webcontent" adlcp:scormtype="sco" href="HTML/launchmodule.html">
+      <file href="HTML/_1_course_overview.html"></file>
+      <file href="HTML/_2_introduction.html"></file>
+      <file href="HTML/_3_orders.html"></file>
+      <file href="HTML/_4_at_log_in.html"></file>
+      <file href="HTML/_5_accepting_orders.html"></file>
+      <file href="HTML/_6_orders_and_your_order_queue.html"></file>
+      <file href="HTML/_7_review___orders.html"></file>
+      <file href="HTML/_8_order_production.html"></file>
+      <file href="HTML/_9_the_menu_item_report.html"></file>
+      <file href="HTML/_10_get_a_menu_item_report.html"></file>
+      <file href="HTML/_11_pack_slips.html"></file>
+      <file href="HTML/_12_get_pack_slips.html"></file>
+      <file href="HTML/_13_invoices_and_order_confirmations_to_accompany_your_orders.html"></file>
+      <file href="HTML/_14_review___order_production.html"></file>
+      <file href="HTML/_15_other_order_related_activities.html"></file>
+      <file href="HTML/_16_contact_the_order_recipient_or_email_a_copy_of_an_order.html"></file>
+      <file href="HTML/_17_deliveries.html"></file>
+      <file href="HTML/_18_add_a_driver_record.html"></file>
+      <file href="HTML/_19_driver_assignment.html"></file>
+      <file href="HTML/_20_assign_a_driver_to_a_delivery.html"></file>
+      <file href="HTML/_21_driver_paperwork.html"></file>
+      <file href="HTML/_22_print_driver_paperwork__catering_invoices___pack_slips.html"></file>
+      <file href="HTML/_23_print_driver_paperwork__driver_sheets_and_maps_.html"></file>
+      <file href="HTML/_24_check_catering_orders_prior_to_distribution.html"></file>
+      <file href="HTML/_25_review___deliveries.html"></file>
+      <file href="HTML/_26_after_order_fulfillment.html"></file>
+      <file href="HTML/_27_order_adjustments.html"></file>
+      <file href="HTML/_28_adjust_an_order__find_the_order.html"></file>
+      <file href="HTML/_29_modify_an_order__add_a_tip__or_adjust_items_or_fees.html"></file>
+      <file href="HTML/_30_adjust_an_order__modify_the_intended_payment_method.html"></file>
+      <file href="HTML/_31_managing_a_cash__check_or_debit_catering_payment.html"></file>
+      <file href="HTML/_32_record_a_payment_at_the_store.html"></file>
+      <file href="HTML/_33_review___after_order_fulfillment.html"></file>
+      <file href="HTML/_34_trend_reports.html"></file>
+      <file href="HTML/_35_resource_planning.html"></file>
+      <file href="HTML/_36_sales_reports.html"></file>
+      <file href="HTML/_37_running_day_end.html"></file>
+      <file href="HTML/_38_store_day_end_for_catering.html"></file>
+      <file href="HTML/_39_perform_day_end__finalize_all_orders_for_the_fulfillment_day.html"></file>
+      <file href="HTML/_40_review___running_end_day.html"></file>
+      <file href="HTML/_41_congratulations.html"></file>
+      <dependency identifierref="CSS"></dependency>
+      <dependency identifierref="JSCRIPT"></dependency>
+      <dependency identifierref="IMAGES"></dependency>
+      <dependency identifierref="AUDIO"></dependency>
+      <dependency identifierref="VIDEO"></dependency>
+   </resource>
+   <resource xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="CSS" type="webcontent" adlcp:scormtype="asset">
+      <file href="CSS/base.css"></file>
+      <file href="CSS/lesson_quiz_base.css"></file>
+      <file href="CSS/lesson_quiz_master.css"></file>
+      <file href="CSS/lesson_quiz_slickQuiz.css"></file>
+   </resource>
+   <resource xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="JSCRIPT" type="webcontent" adlcp:scormtype="asset">
+      <file href="JSCRIPT/jquery.js"></file>
+      <file href="JSCRIPT/modernizr.custom.23933.js"></file>
+      <file href="JSCRIPT/pagination_pages.js"></file>
+      <file href="JSCRIPT/page_controls.js"></file>
+      <file href="JSCRIPT/lesson_quiz_slickQuiz.js"></file>
+      <file href="JSCRIPT/scorm-openclose.js"></file>
+      <file href="JSCRIPT/scormfunctions.js"></file>
+      <file href="JSCRIPT/_7_quiz-config.js"></file>
+      <file href="JSCRIPT/_14_quiz-config.js"></file>
+      <file href="JSCRIPT/_25_quiz-config.js"></file>
+      <file href="JSCRIPT/_33_quiz-config.js"></file>
+      <file href="JSCRIPT/_40_quiz-config.js"></file>
+   </resource>
+   <resource xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="IMAGES" type="webcontent" adlcp:scormtype="asset">
+      <file href="IMAGES/close-btn.png"></file>
+      <file href="IMAGES/next-btn.png"></file>
+      <file href="IMAGES/prev-btn.png"></file>
+      <file href="IMAGES/launchmodule-bg.png"></file>
+      <file href="IMAGES/check_answer.png"></file>
+      <file href="IMAGES/review_header_bg.png"></file>
+      <file href="IMAGES/task_process.png"></file>
+      <file href="IMAGES/roleplay_process.png"></file>
+      <file href="IMAGES/important.png"></file>
+      <file href="IMAGES/small-quotation-marks-start.png"></file>
+      <file href="IMAGES/small-quotation-marks-end.png"></file>
+      <file href="IMAGES/correct_answer.png"></file>
+      <file href="IMAGES/href.png"></file>
+      <file href="IMAGES/resume.png"></file>
+      <file href="IMAGES/2_Pillars_Icons.png"></file>
+      <file href="IMAGES/order_queue_filtering-ss.png"></file>
+      <file href="IMAGES/store_home_page.png"></file>
+      <file href="IMAGES/order_queue_filtering.png"></file>
+      <file href="IMAGES/2_Pillars_Icons.png"></file>
+      <file href="IMAGES/store_production_by_order_item-ss.png"></file>
+      <file href="IMAGES/menu_item_report_interval.png"></file>
+      <file href="IMAGES/store_create_prod_by_item.png"></file>
+      <file href="IMAGES/navbar.png"></file>
+      <file href="IMAGES/store_pack_slip_sigs.png"></file>
+      <file href="IMAGES/store_packslip_order.png"></file>
+      <file href="IMAGES/store_catering_order.png"></file>
+      <file href="IMAGES/navbar.png"></file>
+      <file href="IMAGES/conf_print.png"></file>
+      <file href="IMAGES/2_Pillars_Icons.png"></file>
+      <file href="IMAGES/store_packslip_order-ss.png"></file>
+      <file href="IMAGES/store_packslip_order.png"></file>
+      <file href="IMAGES/store_catering_order.png"></file>
+      <file href="IMAGES/navbar.png"></file>
+      <file href="IMAGES/store_delivery_schedule-ss.png"></file>
+      <file href="IMAGES/store_view_drivers.png"></file>
+      <file href="IMAGES/store_add_driver.png"></file>
+      <file href="IMAGES/navbar.png"></file>
+      <file href="IMAGES/store_assign_delivery.png"></file>
+      <file href="IMAGES/navbar.png"></file>
+      <file href="IMAGES/store_delivery_schedule.png"></file>
+      <file href="IMAGES/navbar.png"></file>
+      <file href="IMAGES/store_delivery_schedule_detail.png"></file>
+      <file href="IMAGES/store_pack_slip_sigs.png"></file>
+      <file href="IMAGES/2_Pillars_Icons.png"></file>
+      <file href="IMAGES/store_catering_order-ss.png"></file>
+      <file href="IMAGES/store_packslip_order.png"></file>
+      <file href="IMAGES/navbar.png"></file>
+      <file href="IMAGES/store_catering_order.png"></file>
+      <file href="IMAGES/store_edit_order_pad.png"></file>
+      <file href="IMAGES/action_plus.png"></file>
+      <file href="IMAGES/order_review_and_save.png"></file>
+      <file href="IMAGES/f.png"></file>
+      <file href="IMAGES/store_daily_payment_register.png"></file>
+      <file href="IMAGES/navbar.png"></file>
+      <file href="IMAGES/action_accounting.png"></file>
+      <file href="IMAGES/2_Pillars_Icons.png"></file>
+      <file href="IMAGES/*************.png"></file>
+      <file href="IMAGES/day_end_w_orders-ss.png"></file>
+      <file href="IMAGES/day_end_w_orders.png"></file>
+      <file href="IMAGES/navbar.png"></file>
+      <file href="IMAGES/2_Pillars_Icons.png"></file>
+   </resource>
+   <resource xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="AUDIO" type="webcontent" adlcp:scormtype="asset">
+      <file href="AUDIO/SWF/soundmanager2.swf"></file>
+      <file href="AUDIO/SWF/soundmanager2_debug.swf"></file>
+      <file href="AUDIO/SWF/soundmanager2_flash9.swf"></file>
+      <file href="AUDIO/SWF/soundmanager2_flash9_debug.swf"></file>
+      <file href="AUDIO/SCRIPT/soundmanager2.js"></file>
+      <file href="AUDIO/SCRIPT/mp3-player-button.js"></file>
+      <file href="AUDIO/CSS/mp3-player-button.css"></file>
+      <file href="AUDIO/IMAGES/audio-volume.png"></file>
+      <file href="AUDIO/IMAGES/audio-playing.gif"></file>
+      <file href="AUDIO/IMAGES/audio-play.gif"></file>
+      <file href="AUDIO/IMAGES/audio-pause.gif"></file>
+   </resource>
+   <resource xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="VIDEO" type="webcontent" adlcp:scormtype="asset">
+      <file href="VIDEO/MMBUILD/background.png"></file>
+      <file href="VIDEO/MMBUILD/bigplay.png"></file>
+      <file href="VIDEO/MMBUILD/bigplay.svg"></file>
+      <file href="VIDEO/MMBUILD/controls-ted.png"></file>
+      <file href="VIDEO/MMBUILD/controls.png"></file>
+      <file href="VIDEO/MMBUILD/controls.svg"></file>
+      <file href="VIDEO/MMBUILD/flashmediaelement-cdn.swf"></file>
+      <file href="VIDEO/MMBUILD/flashmediaelement.swf"></file>
+      <file href="VIDEO/MMBUILD/loading.gif"></file>
+      <file href="VIDEO/MMBUILD/mediaelement-and-player.min.js"></file>
+      <file href="VIDEO/MMBUILD/mediaelement.min.js"></file>
+      <file href="VIDEO/MMBUILD/mediaelementplayer.min.css"></file>
+      <file href="VIDEO/MMBUILD/mediaelementplayer.min.js"></file>
+      <file href="VIDEO/MMBUILD/mejs-skins.css"></file>
+      <file href="VIDEO/MMBUILD/poster-cover.png"></file>
+      <file href="VIDEO/MMBUILD/silverlightmediaelement.xap"></file>
+   </resource>
+</resources>
+</manifest>
