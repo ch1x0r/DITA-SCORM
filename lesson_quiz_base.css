@@ -1,0 +1,174 @@
+/* base.css */
+
+
+/* reset styles */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+
+/* END RESET STYLES */
+
+body {
+	font-family:'Droid Sans',Arial,Helvetica,sans-serif;
+	font-size:16px;
+}
+
+#container {
+  padding:0px 15px;
+}
+
+a {
+	outline: none;
+   text-decoration: none;
+}
+
+/* Headings */
+h1 {
+	font-size:1.6em;
+	background-color:#E70202;
+	background-color:#E77607; /* review header */
+	background-image:url(../IMAGES/review_header_bg.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	color:white;
+	padding:10px;
+	padding-left:70px;
+	margin-bottom:15px;
+}
+
+h2 {
+	font-size:1.4em;
+	color: #E70202;
+	border-bottom:1px solid #E70202;
+	margin-top:15px;
+}
+
+h3, p.level3 {
+	color: #E70202;
+	margin-top:15px;
+	font-size:1.2em;
+}
+
+ul {
+   margin-top:10px;
+	list-style: disc inside;
+}
+
+ul.num {
+	list-style: decimal inside;
+}
+
+li {
+	margin:10px 20px 0px;
+}
+
+p {
+	padding:5px 0px;
+}
+
+table {
+	margin:15px 0px;
+	border:1px solid #ccc;
+}
+
+table.roleplay tr.p1>td:first-child, table.roleplay tr.p2>td:first-child {
+	font-weight:bold;
+}
+
+tr.row_header {
+	background-color: black;
+	color:white;
+	font-size:1.2em;
+}
+
+td {
+ padding:8px;
+ border:1px solid #999;
+	
+}
+
+tr.row_body:nth-of-type(odd), table.roleplay tr.p2 {
+	background-color:#eeeeee;
+}
+
+
+/* Buttons */
+a#prev,a.prev,a#next,a.next,a#close
+{
+	float:left;
+	width: 100px;
+	height:50px;
+	display:inline-block;
+}
+
+a#prev,a.prev {
+	background-image:url(../IMAGES/prev-btn.png);
+}
+
+a#next,a.next {
+	background-image:url(../IMAGES/next-btn.png);
+}
+
+a#close {
+	background-image:url(../IMAGES/close-btn.png);
+   float:right;
+}
+
+#navigation {
+   margin-top:10px;
+	padding:0px 15px;
+	height:55px;	
+}
+
+#page_status {
+	float:left;
+	font-size:24px;
+	height:50px;
+	line-height:50px;
+	padding:0px 10px;
+	width: 160px;
+	padding-left:15px;
+}
+
+/*
+#launchmodule,.launchmodule {
+	background-image:url(../IMAGES/launchmodule-bg.png);
+	background-repeat:repeat-x;
+}
+*/
+
+.section_img {
+	width:100%;
+	height:200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border:1px solid #999;
+}

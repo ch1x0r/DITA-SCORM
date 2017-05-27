@@ -1,0 +1,343 @@
+/* base.css */
+
+
+/* reset styles */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+
+/* END RESET STYLES */
+
+body {
+	font-family:'Droid Sans',Arial,Helvetica,sans-serif;
+	font-size:16px;
+}
+
+#container {
+  padding:0px 15px;
+}
+
+a {
+	outline: none;
+   text-decoration: none;
+}
+
+/* Headings */
+h1 {
+	font-size:1.6em;
+	background-color:#E70202;
+	color:white;
+	padding:10px;
+	margin-bottom:15px;
+}
+
+h2 {
+	font-size:1.4em;
+	color: #E70202;
+	border-bottom:1px solid #E70202;
+	margin-top:15px;
+}
+
+h3, p.level3, p.level2 {
+	color: #E70202;
+	margin-top:15px;
+	font-size:1.2em;
+}
+
+
+
+ul {
+   margin-top:10px;
+	list-style: disc inside;
+}
+
+ul.num {
+	list-style: decimal inside;
+}
+
+li {
+	margin:10px 20px 0px;
+}
+
+p {
+	padding:5px 0px;
+}
+
+table {
+	margin:15px 0px;
+	border:1px solid #ccc;
+}
+
+table.roleplay tr.p1>td:first-child, table.roleplay tr.p2>td:first-child {
+	font-weight:bold;
+}
+
+tr.row_header {
+	background-color: black;
+	color:white;
+	font-size:1.2em;
+}
+
+td {
+ padding:8px;
+ border:1px solid #999;
+}
+
+table.no-border td {
+    border: none;
+} 
+
+tr.row_body:nth-of-type(odd), table.roleplay tr.p2 {
+	background-color:#eeeeee;
+}
+
+table.no-border tr.row_body {
+    background-color: transparent;
+}
+
+/* Buttons */
+a#prev,a#next,a#close {
+	float:left;
+	width: 100px;
+	height:50px;
+}
+
+a#prev {
+	background-image:url(../IMAGES/prev-btn.png);
+}
+
+a#next {
+	background-image:url(../IMAGES/next-btn.png);
+}
+
+a#close {
+	background-image:url(../IMAGES/close-btn.png);
+   float:right;
+}
+
+#navigation {
+        margin-top:10px;
+	padding:0px 15px;	
+	height:55px;
+	position:relative;
+}
+
+#page_status {
+	float:left;
+	font-size:24px;
+	height:50px;
+	line-height:50px;
+	padding:0px 10px;
+	width: 160px;
+	padding-left:15px;
+}
+
+
+#launchmodule {
+	background-image:url(../IMAGES/launchmodule-bg.png);
+	background-repeat:repeat-x;
+}
+
+.section_img {
+	width:100%;
+	height:200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border:1px solid #999;
+}
+
+
+/* topics and tasks */
+img {
+    display:block;
+}
+
+img.border {
+   border:1px solid #ccc;
+}
+
+.task_info {
+   padding-left: 20px;
+   color:#777;
+   padding-top:5px;
+}
+
+h1.task {
+    background-color: #C0C0C0;
+    color:black;
+    background-image: url(../IMAGES/task_process.png);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 45px;
+}
+
+h1.roleplay {
+    background-color: #C0C0C0;
+    color:black;
+    background-image: url(../IMAGES/roleplay_process.png);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 80px;
+}
+
+p.important {
+    margin-top:15px;
+    border:1px solid #ccc;
+    background-image: url(../IMAGES/important.png);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding:10px;
+    padding-left: 40px;
+    
+}
+
+p.quote_text {
+    /* */
+}
+
+p.small_quote_text {
+    color: #B7B9BC;
+    font-weight:bold;
+}
+
+span.small_start_quote {
+    display: inline-block;
+    width:20px;
+    height:15px;
+    background-image: url(../IMAGES/small-quotation-marks-start.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+span.small_end_quote {
+    display: inline-block;
+    width:20px;
+    height:15px;
+    background-image: url(../IMAGES/small-quotation-marks-end.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+
+ul.content_overview {
+    font-size: 1.2em;
+    color: #444;
+    margin-top:20px;
+}
+
+/* image title */
+h3.img {
+    color: #315A9C;
+    margin-bottom:5px;
+}
+
+ul.steps span {
+  display:inline-block;
+}
+
+ul.steps span.icon {
+    padding-left:5px;
+}
+
+ul.steps span.icon img {
+   vertical-align: bottom;
+}
+
+li.navbar span.instruction {
+    background-color: #ddd;
+    padding:3px;
+    border:1px solid #777;
+}
+
+li.navbar span.icon img {
+    padding:2px;
+    width:20px;
+
+}
+
+span.submit_button {
+    margin-left:5px;
+    padding:3px;
+    background-color: #DCDCDC;
+    color: #315A9C;
+    border:1px solid #777;
+    font-weight:bold;
+}
+
+/* links */
+.content_overview a {
+    color: #3D3B3B;
+    display:inline-block;
+    padding-left:20px;
+    background-image: url(../IMAGES/href.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+ul.content_overview {
+    list-style: none outside;
+}
+
+
+/* debug */
+.debug_xmlfilename {
+    font-weight:bold;
+    padding:5px;
+    text-decoration:underline
+}
+
+.debug_worddoc {
+    padding:5px;
+    border:1px solid black;
+    margin:10px 0;
+    font-weight:bold;
+}
+
+a#resume {
+	display:none;
+	position:absolute;
+	top: 290px;
+	left: 15px;
+	width:350px;
+	padding-left:50px;
+	height:55px;
+	line-height: 55px;
+	font-size: 16px;
+	background-image:url(../IMAGES/resume.png);
+	background-position:center;
+	color: #eeeeee;
+	text-transform: uppercase;
+	font-weight:bold;
+	  
+}
+
+
+
